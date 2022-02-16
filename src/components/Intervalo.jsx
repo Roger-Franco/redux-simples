@@ -3,7 +3,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 
 import Card from './Card'
-import { alterarNumeroMaximo, alterarNumeroMinimo } from '../store/actions/numeros'
+import { alterarNumeroMaximo, alterarNumeroMinimo } from '../store/actions/numerosActions'
 
 // eslint-disable-next-line import/no-anonymous-default-export
 function Intervalo(props) {
